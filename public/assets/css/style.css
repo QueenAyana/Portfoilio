@@ -1,0 +1,378 @@
+/*--------------------------------------Background---------------------------------------*/
+body{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+    height: 100%;
+    width: 100%;
+    float: left;
+    margin: 0px
+    }
+/*---------------------------------About Me jumbotron----------------------------------------------*/
+.imgMe{
+    float: left;
+    width: 40%;
+    margin: 25px 25px 20px 15px;
+    border: solid #cccccc;
+}
+
+#box-1{
+    background-color: #ffffff;
+    border: solid #cccccc;
+    position: relative;
+    padding: 40px 30px 40px 30px;
+    margin: 15px auto;
+    border-width: 2px;
+    width: 75%;
+}
+.text{
+    font-family: cursive;
+    color: #777777;
+    margin: 22px 15px 17px 15px;
+    font-size: 14pt;
+    letter-spacing: 1px;
+
+}
+
+#title{
+    font-family: cursive;
+    color: #4aaaa5;
+    font-size: 22pt;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+    line-height: 0.8;
+    text-align: center;
+}
+
+#projectsBtn{
+    background-color:#1c908b
+    !important;
+    position: relative;
+    margin-right: 10%;
+    float: right;
+}
+
+/*---------------------------------Work Link Jumbotron-------------------------------------------------*/
+#portTxt{
+    font-family: cursive;
+    color: #777777;
+    margin: 20px 15px 20px 15px;
+    font-size: 14pt;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+#portTxt2{
+    font-family: cursive;
+    color: #626262;
+    margin: 35px 15px 17px 15px;
+    font-size: 12pt;
+    letter-spacing: 1px;
+}
+ul{
+    font-family: cursive !important;
+    color: #777777 !important;
+
+}
+.card-link{
+    color:#1c908b
+    !important;
+    font-size: 16pt;
+}
+.modal-body{
+    font-family: cursive;
+    font-size: 16pt;
+    color:#777777; 
+}
+.modal-title{
+    font-family: cursive;
+    font-size: 20pt;
+    color:#4aaaa5; 
+}
+
+#modalBtn2{
+    background-color:#1c908b
+    !important;
+    position: relative;
+    margin-left: 10%;
+}
+#aboutMeBtn{
+    background-color:#1c908b
+    !important;
+    position: relative;
+    margin-right: 10%;
+    float: right;
+}
+
+/*-----------------------------------------Projects------------------------------------------*/
+#jumboR{
+    margin-right: 15px;
+    background-color: #ffffff;
+    border: solid #cccccc;
+}
+#jumboL{
+    margin-left: 15px;
+    background-color: #ffffff;
+    border: solid #cccccc;
+}
+#linkBtn{
+    background-color:#1c908b
+    !important;
+    position: relative;
+    float: right;
+}
+
+#appTitle{
+    font-family: cursive;
+    color: #777777;
+    font-size: 22pt;
+    letter-spacing: 1px;
+    line-height: 0.8;
+    text-align: center
+}
+#appRow{
+    border-bottom: groove 4px;
+    border-bottom-color: #dddddd;
+    margin-top: 5%;
+
+}
+#projHeadr{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+
+}
+
+/*-----------------------------------------NAV BAR------------------------------------------*/
+nav{
+    background-color: #ffffff;
+    border-bottom: groove #cccccc;
+    overflow: hidden;
+    position: sticky;
+    width: 100%;
+    padding: 2rem;
+}
+#nameImg{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
+}
+.navbar{
+    padding: 0 !important;
+}
+#modalBtn{
+    font-family: cursive;
+    font-size: 14pt;
+    border-bottom-color: #1c908a75 !important;
+    border-left-color: #ffffff00 !important;
+    border-right-color: #ffffff00 !important;
+    border-top-color: #ffffff00 !important;
+    background-color: #ffffff00;
+    color:#1c908b
+    !important;
+    position: relative;
+    float: right;
+    margin-right: 5%;
+    margin-top: 1rem;
+}
+#navLnk{
+    font-family: cursive;
+    font-size: 14pt;
+    border-bottom-color: #1c908a75 !important;
+    border-left-color: #ffffff00 !important;
+    border-right-color: #ffffff00 !important;
+    border-top-color: #ffffff00 !important;
+    background-color: #ffffff00;
+    color:#1c908b
+    !important;
+    position: relative;
+    float: right;
+    margin-top: 1rem;
+}
+#navBtnDiv{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*-----------------------------------Media Query-------------------------------*/
+footer, header, nav, body{ 
+    display: block;
+}
+#pagewrap {
+    width: 100%;
+	margin: 0 auto;
+    font-size: 16pt;
+}
+@media screen and (min-width: 1025px) {
+    #portTxt{
+        font-size: 14pt;      
+    }    
+    #portTxt2{
+        font-size: 14pt;      
+    }    
+    .text{
+        font-size: 18pt;      
+    } 
+    #title{
+        font-size: 25pt;
+    } 
+    #nameImg{
+        width: 23rem;
+    }
+    .imgMe{
+        width: 15%;
+    }
+    .modal-body{
+        font-size: 18pt
+    }
+    .modal-title{
+        font-size: 18pt
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #appTitle{
+        font-size: 20pt;
+    }
+    #nameImg {
+        width: 23rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+	#box-1, #box-3 {
+		width: 75%;
+    }
+    #imgCol{
+        width: 20%;
+    }
+    #nameImg{
+        width: 20rem;
+    }
+    .imgMe{
+        width: 51%;
+    }
+    .text{
+        margin: 20px 15px 17px 15px;
+    }
+    #portTxt{
+        font-size: 12pt;      
+    }    
+    #portTxt2{
+        font-size: 12pt;      
+    }
+    ul{
+        font-size: 10pt;
+    }    
+    .text{
+        font-size: 12pt;      
+    } 
+    #title{
+        font-size: 16pt;
+    }
+    #navLnk, #modalBtn {
+        font-size: 12pt;
+    }   
+    #appTitle{
+        font-size: 14pt;
+    }
+}
+@media screen and (max-width: 768px){
+    #nameImg{
+        width: 20rem;
+    }
+    .imgMe{
+        float: left;
+        width: 51%;
+    }
+    #navLnk, #modalBtn {
+        font-size: 10pt;
+    } 
+    #portTxt{
+        font-size: 10pt;      
+    }    
+    #portTxt2{
+        font-size: 10pt;      
+    }    
+    .text{
+        font-size: 10pt;      
+    } 
+    #title{
+        font-size: 14pt;
+    }   
+}
+@media screen and (max-width: 700px){
+    #nameImg{
+        width: 20rem;
+    }
+    .imgMe{
+        float: left;
+        width: 51%;
+    }
+    .navlnk{
+        position: fixed;
+        width: 50%;
+        left: 53%
+    }
+    #portTxt{
+        font-size: 10pt;      
+    }    
+    #portTxt2{
+        font-size: 10pt;      
+    }    
+    .text{
+        font-size: 10pt;      
+    } 
+    #title{
+        font-size: 14pt;
+    }   
+}
+@media screen and (max-width: 575px){
+    #jumboL{
+        margin-left: 0;
+    }
+    #jumboR{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #nameImg{
+        width: 13rem;
+        top: 30%;
+    }
+    .imgMe{
+        float: left;
+        width: 51%;
+    }
+    .navlnk{
+        position: fixed;
+        width: 50%;
+        left: 53%
+    }
+    #portTxt{
+        font-size: 8pt;      
+    }    
+    #portTxt2{
+        font-size: 8pt;      
+    }  
+    ul{
+        font-size: 8pt
+    }  
+    .text{
+        font-size: 8pt;      
+    } 
+    #title{
+        font-size: 14pt;
+    } 
+    #imgCol{
+        width: 50%
+    }  
+    #box-3{
+        margin-top: 15px
+    }
+}
